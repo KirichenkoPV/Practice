@@ -1,1 +1,1 @@
-http://DESKTOP-LQLI9PJ.mshome.net:7778/acc
+http://DESKTOP-LQLI9PJ:7778/acc
