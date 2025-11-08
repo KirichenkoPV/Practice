@@ -35,13 +35,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.tilab.jade/jade -->
-        <dependency>
-            <groupId>com.tilab.jade</groupId>
-            <artifactId>jade</artifactId>
-            <version>4.5.0</version>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -62,9 +55,9 @@
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.tilab.jade/jade -->
         <dependency>
-            <groupId>com.tilab.jade</groupId>
+            <groupId>com.gitlab.jade-project</groupId>
             <artifactId>jade</artifactId>
-            <version>4.5.0</version>
+            <version>master-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <repositories>
@@ -73,8 +66,8 @@
             <url>https://repo.maven.apache.org/maven2</url>
         </repository>
         <repository>
-            <id>tilab</id>
-            <url>https://jade.tilab.com/maven/</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 

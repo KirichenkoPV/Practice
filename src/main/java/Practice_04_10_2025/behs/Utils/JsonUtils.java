@@ -23,7 +23,7 @@ public class JsonUtils {
         }
     }
 
-    public static <T> Optional<T> fromJson(String json, Class<T> clazz) {
+    public static <T> Optional<T> fromJson(String json, Class<T> clazz) { // Помогите, я не понимаю, как это работает
         try {
             return Optional.of(mapper.readValue(json, clazz));
         }catch (Exception e) {
